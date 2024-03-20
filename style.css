@@ -1,0 +1,116 @@
+body {
+    background: url(imagens/fundo.png);
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+}
+a {
+    text-decoration: none;
+}
+
+.capa {
+    width: 50%;
+    position: sticky;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    user-select: none;
+}
+
+.header {
+    height: 100%;
+    min-height: 70px;
+    position: relative;
+    background-color: rgb(154, 168, 120);
+    user-select: none;
+}
+
+.button-header {
+    position: sticky;
+    font: bold 12pt system-ui;
+    color: rgb(10, 24, 7);
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    padding: 5px 2.5em;
+    margin-top: 18px;
+    margin-left: 50px;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(143, 62, 15);
+}
+
+.button-header:hover {
+    transition: background-color 0.5s, border-radius 0.1s ease-in-out;
+    background-color: rgb(135,138,98);
+    border-radius: 12px;
+}
+
+.textbody {
+    display: block;
+    background-color: rgb(236, 227, 214);
+    height: 100;
+    min-height: 100px;
+
+}
+
+.textbodytitle {
+    user-select: text;
+    font: bold 17pt system-ui;
+    position: relative;
+    color: rgb(112, 122, 87);
+    padding: 20px 10px 0px 20px;
+    margin-top: 0px;
+}
+
+.textbodytext {
+    user-select: text;
+    font: 12pt system-ui;
+    position: relative;
+    padding: 0px 10px 20px 20px;
+    word-wrap: break-word;
+
+}
+
+.rights {
+    font: bold 13pt system-ui;
+    text-align: center;
+    padding: 10px 0px 10px 0px
+}
+
+.imagem {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(108, 122, 94);
+    padding: 20px, 40px;
+}
+
+.divflex {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.divflex2 {
+    display: inline-flex;
+    align-items: center;
+    padding: 40px 0px 20px 0px;
+}
+
+.imagemflex {
+    display: block;
+    position: relative;
+    width: 45%;
+    border: 10px solid rgb(108, 122, 94); ;
+}
+
+.textflex {
+    user-select: text;
+    font: 12pt system-ui;
+    position: relative;
+    padding: 0px 20px 10px 20px;
+    text-align: justify;
+}
